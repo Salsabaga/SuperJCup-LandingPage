@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Landing Page - Super J Cup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to Start
 
-## Available Scripts
+A simple landing page that can be accessed via the link in my portfolio, but to start the program via a IDE, `npm start `
 
-In the project directory, you can run:
+## Custom Built UI Features
 
-### `npm start`
+### Carousel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The carousel (slideshow) allows users to view major important events or features that the client wants to prioritise, and using a timed, automatic scroll/transition for a continuous "show" experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Making a carousel with react allows a declarative approach to the transition process, utilisting the useState hook to manipulate the index of each picture to show and activate the css class features. For this to accomplish rather than showing just one picure inside the carousel container, I would map the whole array of pictures, and reduce its opacity to 0, and once the index is active, another css class is added to show the picture.
 
-### `npm test`
+useEffect is a useful hook to allow side-effects in functional components, especially when manipulation DOM elements. Thus by using the hook with timing features, such as setInterval, I can manipulate the state of the picture state, and featuring the clean-up feature removes any data leaks and smoother performance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Enter picture diagram of Carousel here for next commit_
 
-### `npm run build`
+#### Thank you for reading, for any questions or to check out more of my work, please visit my github profile or check out my portfolio.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Danny Baldeon Abril | 2022
