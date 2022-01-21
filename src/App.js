@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Carousel from "./Carousel";
+import Navbar from "./Navbar";
+import News from "./News";
+import { Facebook, Public, Twitter } from "@mui/icons-material";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<main>
+			<Navbar />
+			<Carousel />
+			<News />
+			<footer>
+				<div className="footer-info">
+					<p>Made with React by Danny Baldeon Abril</p>
+					<div className="footer-icons">
+						<a href="#">
+							<Facebook sx={{ color: "#fff" }} />
+						</a>
+						<a href="#">
+							<Twitter sx={{ color: "#fff" }} />
+						</a>
+						<a href="#">
+							<Public sx={{ color: "#fff" }} />
+						</a>
+					</div>
+				</div>
+			</footer>
+		</main>
+	);
 }
 
 export default App;
