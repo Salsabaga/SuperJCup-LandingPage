@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/SuperJCup-LandingPage/static/css/main.2e3da474.css",
+    "main.js": "/SuperJCup-LandingPage/static/js/main.daafe058.js",
+    "static/media/placeholder-img-osaka.jpg": "/SuperJCup-LandingPage/static/media/placeholder-img-osaka.23fac4df0dca8202fb55.jpg",
+    "static/media/pexels-mike-gonzález-2167890.jpg": "/SuperJCup-LandingPage/static/media/pexels-mike-gonzález-2167890.14a0687eb7b4f81c3b89.jpg",
+    "static/media/SuperJCup-Match.png": "/SuperJCup-LandingPage/static/media/SuperJCup-Match.1f5b90554377ac112b64.png",
+    "static/media/placeholder-img-sanfrancisco.jpg": "/SuperJCup-LandingPage/static/media/placeholder-img-sanfrancisco.2f9a355be949688930ce.jpg",
+    "static/media/placeholder-img-mask.jpg": "/SuperJCup-LandingPage/static/media/placeholder-img-mask.84bd30e02dc9c42fbc54.jpg",
+    "static/media/SuperJCup-Profile.png": "/SuperJCup-LandingPage/static/media/SuperJCup-Profile.c4bdcf2ebe32c4857d51.png",
+    "static/media/SuperJCup-About.png": "/SuperJCup-LandingPage/static/media/SuperJCup-About.3584ac76f4adc63b2a11.png",
+    "index.html": "/SuperJCup-LandingPage/index.html",
+    "main.2e3da474.css.map": "/SuperJCup-LandingPage/static/css/main.2e3da474.css.map",
+    "main.daafe058.js.map": "/SuperJCup-LandingPage/static/js/main.daafe058.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e3da474.css",
+    "static/js/main.daafe058.js"
+  ]
+}
